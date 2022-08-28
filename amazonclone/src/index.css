@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  /* height: 100%; */
+  scroll-behavior: auto !important;
+}
+
+
+body{
+  background-color: rgb(234, 237, 237);
+
+  /*"This property we are just adding because we don't want to show horizontal scroll at the increasing zoom percent of google"
+  overflow-x:hidden; */
+  /*height: 100vh---> "This property we are just adding for footer should always look at the below of the page in each device"*/
+  
+  min-height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+
+.dark_body{
+    /* for dark theme  */
+  background-color:#231f1e;
+  min-height: 100vh;
+  /* min-height: 220vh; */
+  /* min-height: 100%; */
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 998px) {
+  .dark_body{
+    /* for dark theme  */
+  background-color:#231f1e;
+  min-height: 100vh;
+  /* min-height: max-content; */
+  /* min-height: 100%; */
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+}
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  background: rgb(219, 217, 217);
+}
+
+/*button*/
+/* ::-webkit-scrollbar-button {
+  width: 5px;
+  height: 5px; 
+} */
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: green; */
+  /* --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  /* border-left: 9px solid #f6f6f6; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgb(219, 217, 217);
+  border-left: 9px solid rgb(219, 217, 217);
+  border-right: 9px solid rgb(219, 217, 217);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); */
+  background: #949191;;
+  border-radius: 8px;
+  border-left: 5px solid rgb(219, 217, 217);
+  border-right: 5px solid rgb(219, 217, 217);
+}
+::-webkit-scrollbar-thumb:hover {
+  /* --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); */
+  background: rgb(104, 102, 102);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,75 @@
+
+/* // for for Welcome banner 4
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"); */
+
+/* // for banner 4 */
+.welcomebanner4 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  
+    box-sizing: border-box;
+    padding: 0 !important;
+    margin: 0;
+    flex-wrap: wrap;
+    /* padding-left: 10px; */
+}
+.welcomebanner4__item {
+    overflow: hidden;
+    width: 33%;
+    padding: 16px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.welcomebanner4__item img {
+    width: 70%;
+    height: 70%;
+}
+.welcomebanner4__title {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.welcomebanner4__description {
+    font-size: larger;
+}
+
+
+
+/* // for responsive design */
+@media (min-width: 479px) and (max-width: 768px) {
+    .welcomebanner4__item img {
+        width: 50%;
+        height: 50%;
+    }
+    .welcomebanner4__item {
+        overflow: hidden;
+        width: 33%;
+        padding: 16px;
+        font-size: 12px;
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        color: black;
+        background-color: white;
+      }
+  
+}
+
+@media screen and (max-width: 478px) {
+    .welcomebanner4 {
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .welcomebanner4__item {
+        width: 100%;
+        color: white;
+        background-color: black;
+    }
+    .welcomebanner4__item img {
+        width: 70%;
+        height: 70%;
+    }
+
+}

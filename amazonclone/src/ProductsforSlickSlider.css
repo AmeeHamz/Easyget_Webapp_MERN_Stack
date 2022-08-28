@@ -1,0 +1,27 @@
+.slideslick__pic {
+  height: 170px;
+  width: 100%;
+  object-fit: contain;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+  /* border: 2px solid lightgray; */
+}
+
+.slideslick__pic:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 998px) {
+
+.slideslick__pic {
+  height: 128px;
+  width: 100%;
+  object-fit: contain;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+  /* border: 2px solid lightgray; */
+}
+
+
+}

@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+/* Start BacktoTop Css */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #37475a;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.top:hover {
+  background-color: #4c6078;
+  transition: 3ms;
+}
+
+.backToTop > a {
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+}
+/* End BacktoTop Css */
+
+/* Start Footer Css */
+
+.fstgridline {
+  font-family: "PT Sans", sans-serif;
+}
+.footercopy {
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  color: lightgray;
+}
+.footer_end_amazon {
+  font-size: 15px;
+}
+.stylefrstcontainer {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid white; */
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+.stylescndcontainer {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid white; */
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 35px;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_Homepg {
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_for_product_detailspg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+/* below media queries for mobile mode */
+
+@media screen and (max-width: 450px) {
+  .MAIN_WHOLE_FOOTER_CONTAINER_for_product_detailspg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 180vh;
+
+    /* ye neechy jo hm ny top: 222vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or inspect kr k check kr lena yr;
+ */
+    /* top: 222vh; */
+  }
+}
+
+/* below media queries for tablet mode */
+@media (min-width: 479px) and (max-width: 768px) {
+  .MAIN_WHOLE_FOOTER_CONTAINER_for_product_detailspg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 170vh;
+  }
+}
+
+.Returns_orders_page{
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+.Returns_orders_page_length_zero{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+/* below queries for laptop mode */
+.MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_1_srches {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_2_srches {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_3_srches {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_4_srches {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+/* below media queries for mobile mode */
+@media screen and (max-width: 478px) {
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_1_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+    /* ye neechy jo hm ny top: 102vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or inspect kr k check kr lena yr;
+ */
+    /* top: 102vh; */
+  }
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_2_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 123vh;
+    /* ye neechy jo hm ny top: 177vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or inspect kr k check kr lena yr;
+ */
+    /* top: 177vh; */
+  }
+
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_3_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 170vh;
+    /* ye neechy jo hm ny top: 251vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or inspect kr k check kr lena yr;
+ */
+    /* top: 251vh; */
+  }
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_4_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 220vh;
+    /* ye neechy jo hm ny top: 326vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or inspect kr k check kr lena yr;
+ */
+    /* top: 326vh; */
+  }
+}
+
+/* below media queries for tablet mode */
+@media (min-width: 479px) and (max-width: 768px) {
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_1_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_2_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_3_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+  .MAIN_WHOLE_FOOTER_CONTAINER_Search_product_page_for_4_srches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 150vh;
+  }
+}
+
+/* below media queries for pc , laptops */
+/* @media screen and (max-width: 4000px) { */
+.MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_0_length {
+  /* basket ki value 0 hn gi */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_1_length {
+  /* basket ki value 1 hn gi */
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+.MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_2_length {
+  /* basket ki value 2 hn gi */
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+/* } */
+
+/* below media queries for mobile mode */
+@media screen and (max-width: 478px) {
+  .MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_0_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+  .MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_1_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+    /* ye neechy jo hm ny top: 123vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or ye jb mery basket ki value 1 hn gi tb ye footer work kry ga inspect kr k check kr lena yr;
+ */
+    /* top: 123vh; */
+  }
+
+  .MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_2_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 145vh;
+    /* ye neechy jo hm ny top: 183vh likh ha ye jab ma perfect responsive krou ga tb is ki exact value consider kroun ga abhi just example try h or ye jb mery basket ki value 2 hn gi tb ye footer work kry ga inspect kr k check kr lena yr;
+ */
+    /* top: 183vh; */
+  }
+}
+
+/* below media queries for tablet mode */
+@media (min-width: 479px) and (max-width: 768px) {
+  .MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_0_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+
+  .MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_1_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100vh;
+  }
+
+  .MAIN_WHOLE_FOOTER_CONTAINER_checkoutpage_for_2_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 130vh;
+  }
+}
+
+/* End Foooter Css */
+
+@media screen and (max-width: 998px) {
+  .footercopy {
+    font-family: "Heebo", sans-serif;
+    font-size: 10px;
+    color: lightgray;
+    text-align: center;
+  }
+  .footer_end_amazon {
+    font-size: 10px;
+  }
+}
+@media (min-width: 479px) and (max-width: 768px) {
+  .stylefrstcontainer {
+    width: 758px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+  }
+  .stylescndcontainer {
+    width: 758px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

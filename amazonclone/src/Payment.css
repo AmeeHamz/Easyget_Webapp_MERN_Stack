@@ -1,0 +1,332 @@
+.payment {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 1500px;
+}
+.dark_payment {
+  background-color: #231f1e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 1500px;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+.dark_payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: #231f1e;
+  color: white;
+}
+
+.payment__container > h1 a {
+  text-decoration: none;
+  color: seagreen;
+}
+.dark_payment__container > h1 a {
+  text-decoration: none;
+  color: seagreen;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+.dark_payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid rgb(85, 85, 85);
+  border: 2px solid rgb(85, 85, 85);
+}
+.payment__title {
+  /* for the better understanding, we can expand to the inspect in the browser and see the layout flex options  */
+  flex: 0.2;
+}
+.dark_payment__title {
+  flex: 0.2;
+  color: white;
+}
+
+.payment__address,
+.payment__items,
+.payment_suggestion,
+.payment__details {
+  /* for the better understanding, we can expand to the inspect in the browser and see the layout flex options  */
+  flex: 0.8;
+}
+.dark_payment__address,
+.dark_payment__items,
+.dark_payment_suggestion,
+.dark_payment__details {
+  flex: 0.8;
+  color: white;
+}
+
+.payment__details > form {
+  max-width: 400px;
+}
+.dark_payment__details > form {
+  max-width: 400px;
+}
+
+.payment__details > h3 {
+  padding-bottom: 20px;
+}
+
+.dark_payment__details > h3 {
+  padding-bottom: 20px;
+}
+.payment__details > form > div > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 35px;
+  border: 2px solid;
+  font-weight: 600;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.dark_payment__details > form > div > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 35px;
+  border: 2px solid;
+  font-weight: 600;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: black;
+}
+
+.inputStyling {
+  margin-right: 25px;
+  padding: 10px;
+  width: 23%;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding-left: 15px;
+  outline: none;
+}
+.dark_inputStyling {
+  margin-right: 25px;
+  padding: 10px;
+  width: 23%;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  padding-left: 15px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+.dark_inputStyling::placeholder {
+  color: darkgray;
+}
+
+.inputStyling:focus {
+  border: 2px solid #f0c14b;
+}
+.dark_inputStyling:focus {
+  border: 2px solid #f0c14b;
+}
+
+.textarea_form {
+  margin-top: 30px;
+}
+.dark_textarea_form {
+  margin-top: 30px;
+}
+
+.textarea_form textarea {
+  padding: 10px;
+  width: 73.5%;
+  border: 2px solid lightgray;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 15px;
+}
+.dark_textarea_form textarea {
+  padding: 10px;
+  width: 73.5%;
+  border: 2px solid darkgray;
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 15px;
+}
+.dark_textarea_form textarea::placeholder {
+  color: darkgray;
+}
+
+.textarea_form textarea:focus {
+  border: 2px solid #f0c14b;
+}
+.dark_textarea_form textarea:focus {
+  border: 2px solid #f0c14b;
+}
+
+.submit_btnn > input {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 200px;
+  height: 35px;
+  border: 2px solid;
+  font-weight: 500;
+  margin-top: 15px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.payment_details_test {
+  display: flex;
+  width: 100%;
+}
+
+/* for responsiveness code in below just was testing or mobile se pic b li thi dekh lena*/
+/* .inputs_form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+} */
+
+@media screen and (max-width: 998px) {
+  .payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+  }
+  .dark_payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #231f1e;
+    font-size: 20px;
+  }
+
+  .payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+    flex-wrap: wrap;
+  }
+  .dark_payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
+  .payment__title {
+    flex: 0.6;
+  }
+  .dark_payment__title {
+    flex: 0.6;
+  }
+  .payment__title h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .dark_payment__title h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .payment__address {
+    flex: 0.8;
+    line-height: 0.8;
+  }
+  .dark_payment__address {
+    flex: 0.8;
+    line-height: 0.8;
+  }
+  .inputStyling {
+    margin-right: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  .dark_inputStyling {
+    margin-right: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  .textarea_form textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 15px;
+  }
+  .dark_textarea_form textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 15px;
+  }
+  .submit_btnn > input {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 225px;
+    height: 35px;
+    border: 2px solid;
+    font-weight: 500;
+    margin-top: 15px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+  }
+  .payment_details_test {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .payment__priceContainer h3 {
+    font-size: 20px;
+  }
+  .payment__details > form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 35px;
+    border: 2px solid;
+    font-weight: 600;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .payment_details_test {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

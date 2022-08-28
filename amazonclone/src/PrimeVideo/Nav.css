@@ -1,0 +1,33 @@
+.nav__contents{
+    display:flex;
+    justify-content: space-between;
+}
+.nav__logo{
+    position:relative;
+    object-fit: cover;
+}
+.nav__logo{
+    width:140px;
+}
+.nav__logo:hover{
+cursor: pointer;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+}
+.nav__black{
+    color:black;
+}
+@media screen and (max-width: 768px) {
+
+.nav__logo {
+    width: 120px;
+    height: 35px;
+}
+}

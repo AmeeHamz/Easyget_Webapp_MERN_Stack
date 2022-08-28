@@ -1,0 +1,115 @@
+.order {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+.order_name {
+  color: black;
+}
+.order_date {
+  color: black;
+}
+
+.dark_order {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid rgb(85, 85, 85);
+  background-color: #231f1e;
+  position: relative;
+}
+.dark_order_name {
+  color: white;
+}
+.dark_order_date {
+  color: whitesmoke;
+}
+
+.order__id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+.dark_order__id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  color: whitesmoke;
+}
+
+.order__total {
+  font-weight: 500;
+  text-align: right;
+}
+.dark_order__total {
+  font-weight: 500;
+  text-align: right;
+  color: white;
+}
+
+@media screen and (max-width: 998px) {
+  .order {
+    /* padding-left: 600px; */
+    padding: 22px;
+    margin: 18px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+    /* padding-top: 20px; */
+    /* padding-bottom: 10px; */
+  }
+  .dark_order {
+    /* padding-left: 600px; */
+    padding: 22px;
+    margin: 18px 0;
+    border: 1px solid  rgb(85, 85, 85);
+    background-color: #231f1e;
+    position: relative;
+    /* padding-top: 20px; */
+    /* padding-bottom: 10px; */
+  }
+  .order__total {
+    font-weight: 600;
+    text-align: left !important;
+    font-size: 15px;
+  }
+  .dark_order__total {
+    font-weight: 600;
+    text-align: left !important;
+    font-size: 15px;
+    color: white;
+  }
+  .order_date {
+    color: black;
+    font-size: 15px;
+    position: relative;
+  }
+  .dark_order_date {
+    color: white;
+    font-size: 15px;
+    position: relative;
+  }
+
+  .order__id  {
+    font-size: 0.9rem !important;
+    position: absolute;
+    top:10px;
+    right:15px;
+   }
+  .dark_order__id {
+    font-size: 0.9rem !important;
+    position: absolute;
+    top:10px;
+    right:15px;
+    color: whitesmoke;
+  }
+  .order_name {
+    color: black;
+    margin-top: 15px;
+  }
+  .dark_order_name {
+    color: white;
+    margin-top: 15px;
+  }
+}

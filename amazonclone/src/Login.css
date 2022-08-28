@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dark_login {
+  background-color: #231f1e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login__container {
+  width: 368px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.dark_login__container {
+  width: 368px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #fcb503;
+  padding: 20px;
+}
+
+.login__container > h1 {
+  /* font-weight: 500; */
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-transform: capitalize;
+  /* font-weight: lighter; */
+}
+.dark_login__container > h1 {
+  /* font-weight: 500; */
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: white;
+  /* font-weight: lighter; */
+}
+.login__container > form > h3 {
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.dark_login__container > form > h3 {
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+  outline: none;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  color: black;
+  padding: 3px 7px;
+  font-size: 14px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+}
+.dark_login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+  outline: none;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  color: black;
+  padding: 3px 7px;
+  font-size: 14px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+}
+
+.login__container > form > input:focus {
+  border: 2px solid #fc8829;
+}
+.dark_login__container > form > input:focus {
+  border: 2px solid #fc8829;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.dark_login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.loginButton {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.whole_create_your_acount_Button {
+  width: 360px;
+  position: fixed;
+  top: 510px;
+}
+.create_your_acount_Button {
+  border-radius: 2px;
+  width: 360px;
+  height: 30px;
+  border: 1px solid;
+  border-color: darkgray;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.dark_create_your_acount_Button {
+  border-radius: 2px;
+  width: 360px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #fcb503;
+  background-color: #231f1e;
+  color: white;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.create_your_acount_Button:hover {
+  cursor: pointer;
+  background-color: rgb(233, 229, 229);
+}
+.dark_create_your_acount_Button:hover {
+  cursor: pointer;
+  background-color: #f0c14b;
+  color: black;
+}
+.login_hrline {
+  color: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  width: 368px;
+  text-align: center;
+}
+.dark_login_hrline {
+  color: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  width: 368px;
+  text-align: center;
+}
+.login_hrline {
+  position: relative;
+  color: #767676;
+  left: 0;
+  z-index: 1;
+}
+.dark_login_hrline {
+  position: relative;
+  color: gray;
+  left: 0;
+  z-index: 1;
+}
+.login_new_to_amazon {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  position: absolute;
+  background-color: #fff;
+  top: -14px;
+  margin-top: 25px;
+  left: 137px;
+}
+.dark_login_new_to_amazon {
+  line-height: 1;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  z-index: 2;
+  position: absolute;
+  background-color: #231f1e;
+  top: -14px;
+  margin-top: 25px;
+  left: 137px;
+}
+
+.login_terms {
+  color: black;
+}
+
+.dark_login_terms {
+  color: white;
+}
+.login_conds {
+  color: blue;
+}
+.dark_login_conds {
+  color: seagreen;
+}
+.login_privacy {
+  color: blue;
+}
+.dark_login_privacy {
+  color: seagreen;
+}
+.error_icon_and_for_Errors_Para {
+  margin-top: -10px;
+  margin-bottom: 2px;
+}
+.for_Errors_Para {
+  color: red;
+  font-size: 12px;
+  padding-left: 2px;
+}
+.error_icon {
+  padding-left: 3px;
+  font-size: 20px !important;
+  color: red;
+}
+.login_hrline_and_login_new_to_amazon {
+  top: 450px;
+  width: 368px;
+  text-align: center;
+  bottom: 20px;
+  position: fixed;
+}
+
+@media screen and (max-width: 998px) {
+  .Toastify__toast-container {
+    display: block;
+    width: 90%;
+    margin-left: 18px;
+  }
+  .Toastify__toast-body {
+    margin: auto 0;
+    flex: 1 1 auto;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 76px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .login__container {
+    width: 330px;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 13px;
+    padding-bottom: 5px;
+  }
+  .dark_login__container {
+    width: 330px;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid #fcb503;
+    padding: 13px;
+    padding-bottom: 5px;
+  }
+  .login__container > h1 {
+    color: black;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
+    font-size: 22px;
+    /* font-weight: lighter; */
+  }
+  .dark_login__container > h1 {
+    color: white;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
+    font-size: 22px;
+    /* font-weight: lighter; */
+  }
+  .login__container > form > h3 {
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    font-family: "Amazon Ember", Arial, sans-serif;
+  }
+  .dark_login__container > form > h3 {
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    font-family: "Amazon Ember", Arial, sans-serif;
+  }
+  .login__container > form > input {
+    height: 28px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    outline: none;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 2px;
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  }
+  .dark_login__container > form > input {
+    height: 28px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    outline: none;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 2px;
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  }
+  .login__container > form > input::placeholder {
+    font-size: 12px;
+  }
+
+  .dark_login__container > form > input::placeholder {
+    font-size: 12px;
+  }
+  .loginButton {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 26px;
+    border: 1px solid;
+    margin-top: 7px;
+    border-color: #a88734 #9c7e31 #846a29;
+  }
+  .dark_loginButton {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 26px;
+    border: 1px solid;
+    margin-top: 7px;
+    border-color: #a88734 #9c7e31 #846a29;
+  }
+  .login__container > p {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+  .dark_login__container > p {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+  .login_hrline {
+    width: 90%;
+    position: relative;
+    color: #767676;
+    left: 18px;
+    z-index: 1;
+  }
+  .dark_login_hrline {
+    width: 90%;
+    position: relative;
+    color: #767676;
+    left: 18px;
+    z-index: 1;
+  }
+
+  .login_hrline_and_login_new_to_amazon {
+    top: 400px;
+    width: 368px;
+    text-align: center;
+    bottom: 20px;
+    position: fixed;
+  }
+  .whole_create_your_acount_Button {
+    width: 360px;
+    position: fixed;
+    top: 450px;
+    left: 18px;
+  }
+  .create_your_acount_Button {
+    border-radius: 2px;
+    width: 325px;
+    height: 28px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+  }
+  .dark_create_your_acount_Button {
+    border-radius: 2px;
+    width: 325px;
+    height: 28px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #fcb503;
+    background-color: #231f1e;
+    color: white;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,39 @@
+.footer{
+    padding: 0.5rem;
+    background: #111111;
+    border-top: 1px solid #222;
+  
+  }
+  .footer__logo{
+    display: flex;
+    justify-content: center;
+  margin-bottom: 1rem;
+  }
+  
+  .footer__links{
+    display: flex;
+    width: 30%;
+    margin-top: 1rem;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .footer__links__link-item{
+    text-decoration: none;
+    color: #0f79af;
+  }
+  
+  
+  @media screen and  (max-width:768px){
+    .footer__links{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer__links__link-item{
+        padding: .5rem;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+  }
